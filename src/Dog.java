@@ -4,4 +4,9 @@ public class Dog extends Animal{
         super(name);
     }
 
+    @Override
+    String makeSound() {
+        return "Woof!";
+    }
+
 }
