@@ -13,4 +13,6 @@ public abstract class Animal {
     abstract Boolean eat(String foodType);
 
     abstract String mood(boolean mood);
+
+    abstract String Jump(double distance);
 }

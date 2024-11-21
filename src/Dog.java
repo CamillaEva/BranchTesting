@@ -23,5 +23,10 @@ public class Dog extends Animal{
         }
     }
 
+    @Override
+    String Jump(double distance) {
+        return "dog jumps " + distance + "centimeters";
+    }
+
 
 }

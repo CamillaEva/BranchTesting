@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Animal cat = new Cat("angela");
-        Animal dog = new Dog("pluto");
+        Animal cat = new Cat("Cleo");
+        Animal dog = new Dog("Pluto");
 
 
         System.out.println(cat.makeSound());

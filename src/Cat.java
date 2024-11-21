@@ -22,4 +22,9 @@ public class Cat extends Animal{
            return "hvæser";
        }
     }
+
+    @Override
+    String Jump(double distance) {
+        return "cat jumps " + distance + " centmeters";
+    }
 }
