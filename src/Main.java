@@ -12,5 +12,7 @@ public class Main {
 
         System.out.println(cat.mood(true));
         System.out.println(dog.mood(false));
+
+        System.out.println("hej med dig");
     }
 }
