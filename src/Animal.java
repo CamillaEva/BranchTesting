@@ -9,4 +9,7 @@ public abstract class Animal {
 
 
     abstract String makeSound();
+
+    abstract Boolean eat(String foodType);
+
 }
