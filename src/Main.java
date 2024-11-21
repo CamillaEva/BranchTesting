@@ -9,5 +9,8 @@ public class Main {
 
         System.out.println(cat.eat("catFood"));
         System.out.println(dog.eat("dogFood"));
+
+        System.out.println(cat.mood(true));
+        System.out.println(dog.mood(false));
     }
 }
